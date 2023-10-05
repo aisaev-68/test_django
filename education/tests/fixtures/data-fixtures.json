@@ -1,0 +1,188 @@
+[
+  {
+    "model": "product.product",
+    "pk": 6,
+    "fields": {
+      "owner": 2,
+      "name": "Product_1",
+      "href": "/product/1"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 7,
+    "fields": {
+      "owner": 2,
+      "name": "Product_2",
+      "href": "/product/2"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 8,
+    "fields": {
+      "owner": 2,
+      "name": "Product_3",
+      "href": "/product/3"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 9,
+    "fields": {
+      "owner": 2,
+      "name": "Product_4",
+      "href": "/product/4"
+    }
+  },
+  {
+    "model": "product.product",
+    "pk": 10,
+    "fields": {
+      "owner": 2,
+      "name": "Product_5",
+      "href": "/product/5"
+    }
+  },
+  {
+    "model": "product.lesson",
+    "pk": 1,
+    "fields": {
+      "name": "Lesson_1",
+      "href": "/lesson/1",
+      "view_duration": 5517,
+      "products": [
+        6,
+        8
+      ]
+    }
+  },
+  {
+    "model": "product.lesson",
+    "pk": 2,
+    "fields": {
+      "name": "Lesson_2",
+      "href": "/lesson/2",
+      "view_duration": 5610,
+      "products": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "product.lesson",
+    "pk": 3,
+    "fields": {
+      "name": "Lesson_3",
+      "href": "/lesson/3",
+      "view_duration": 5129,
+      "products": [
+        10
+      ]
+    }
+  },
+  {
+    "model": "product.lesson",
+    "pk": 4,
+    "fields": {
+      "name": "Lesson_4",
+      "href": "/lesson/4",
+      "view_duration": 4693,
+      "products": [
+        9
+      ]
+    }
+  },
+  {
+    "model": "product.lesson",
+    "pk": 5,
+    "fields": {
+      "name": "Lesson_5",
+      "href": "/lesson/5",
+      "view_duration": 3480,
+      "products": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "product.lesson",
+    "pk": 6,
+    "fields": {
+      "name": "Lesson_6",
+      "href": "/lesson/6",
+      "view_duration": 5663,
+      "products": [
+        7
+      ]
+    }
+  },
+  {
+    "model": "product.lesson",
+    "pk": 7,
+    "fields": {
+      "name": "Lesson_7",
+      "href": "/lesson/7",
+      "view_duration": 2156,
+      "products": []
+    }
+  },
+  {
+    "model": "product.lesson",
+    "pk": 8,
+    "fields": {
+      "name": "Lesson_8",
+      "href": "/lesson/8",
+      "view_duration": 3731,
+      "products": [
+        10
+      ]
+    }
+  },
+  {
+    "model": "product.lesson",
+    "pk": 9,
+    "fields": {
+      "name": "Lesson_9",
+      "href": "/lesson/9",
+      "view_duration": 907,
+      "products": [
+        8,
+        9,
+        10
+      ]
+    }
+  },
+  {
+    "model": "product.lesson",
+    "pk": 10,
+    "fields": {
+      "name": "Lesson_10",
+      "href": "/lesson/10",
+      "view_duration": 4763,
+      "products": [
+        6,
+        7,
+        9
+      ]
+    }
+  },
+  {
+    "model": "product.lessonview",
+    "pk": 1,
+    "fields": {
+      "lesson": 1,
+      "user": 8,
+      "viewing_time": "2023-10-05T16:26:54Z",
+      "viewed": "Просмотрено"
+    }
+  },
+  {
+    "model": "product.access",
+    "pk": 3,
+    "fields": {
+      "user": 8,
+      "product": 8
+    }
+  }
+]
