@@ -39,7 +39,7 @@ poetry install
 - Swagger доступна по адресу `http://localhost:8000/swagger`.
 - Первый пункт задания `http://localhost:8000/lessons/`.
 - Второй пункт задания`http://localhost:8000/api/lessons/by_product/`.
-- Третий пункт задания `http://localhost:8000/api/product_stats/.
+- Третий пункт задания `http://localhost:8000/api/product_stats/`.
 
 
 
